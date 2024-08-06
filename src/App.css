@@ -32,7 +32,171 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  list-style: none;
+}
+
+
+/* Header Styles */
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.header-menu .logo {
+  font-size: 1.5rem;
+}
+
+.header-menu .hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header-menu nav {
+  display: flex;
+}
+
+.ul-class {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header-item ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header-item ul li {
+  padding: 0.5rem 1rem;
+}
+
+.header-item:hover ul {
+  display: block;
+}
+
+.menu-container {
+  display: flex;
+  gap: 1rem;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  width: 50%;
+  flex-direction: row;
+  align-items: start;
+  padding-left: 27px;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.submenu {
+  padding-top: 15px;
+}
+
+.submenu-item a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+span.cursor {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.category-item {
+  text-align: start;
+}
+
+.submenu-item {
+  margin-bottom: 15px;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-menu .hamburger {
+    display: block;
+  }
+
+  .header-menu nav {
+    display: none;
+    width: 100%;
+  }
+
+  .header-menu nav.nav-open {
+    display: block;
+  }
+
+  .ul-class {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ul-class .header-item {
+    width: 100%;
+  }
+
+  .header-item ul {
+    position: static;
+    background-color: #f9f9f9;
+  }
+}
+
+
+/* categories-data */
+
+.categories-data {
+  display: flex;
+  justify-content: start;
+}
+
+.categories-data li {
+  margin-right: 15px;
+}
+
+.categories-flex {
+  display: flex;
+}
+
+.width {
+  width: 33.33% !important;
+}
+
+.green {
+  background-color: green;
 }
