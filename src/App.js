@@ -7,6 +7,9 @@ import TodoList from './component/TodoList';
 import ToggleMessage from './component/Canditinal';
 import Countries from './component/Countries';
 import Changecolor from './component/Changecolor';
+import UserList from './component/UserList';
+import BMICalculator from './component/Calculator';
+import Fakeapi from './component/Fakeapi';
 // import Closure from './components/Closure';
 // import UseEffect from './components/UseEffect';
 
@@ -15,12 +18,15 @@ function App() {
     <div className="App">
       {/* <Closure /> */}
       {/* <UseEffect /> */}
-      <Menu />
-      <Categorydata />
+      {/* <Menu /> */}
+      {/* <Categorydata /> */}
       {/* <TodoList /> */}
       {/* <ToggleMessage /> */}
-      <Countries />
+      {/* <Countries /> */}
       {/* <Changecolor/> */}
+      {/* <UserList/> */}
+      {/* <BMICalculator/> */}
+      <Fakeapi/>
     </div>
   );
 }
