@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/practical/static/css/main.6ada099d.css",
+    "main.js": "/practical/static/js/main.8a6dcf40.js",
+    "static/js/453.af5c171a.chunk.js": "/practical/static/js/453.af5c171a.chunk.js",
+    "static/media/pexels-fotios-photos-1092644.jpg": "/practical/static/media/pexels-fotios-photos-1092644.01040e90c948c0a3fc58.jpg",
+    "static/media/pexels-pixabay-356056.jpg": "/practical/static/media/pexels-pixabay-356056.250f58cd2b1de3179b76.jpg",
+    "static/media/pexels-fujifilmusa-3497065.jpg": "/practical/static/media/pexels-fujifilmusa-3497065.2664bfd6d5361a215447.jpg",
+    "static/media/logo.svg": "/practical/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/practical/index.html",
+    "main.6ada099d.css.map": "/practical/static/css/main.6ada099d.css.map",
+    "main.8a6dcf40.js.map": "/practical/static/js/main.8a6dcf40.js.map",
+    "453.af5c171a.chunk.js.map": "/practical/static/js/453.af5c171a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ada099d.css",
+    "static/js/main.8a6dcf40.js"
+  ]
+}
